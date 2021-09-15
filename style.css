@@ -40,13 +40,21 @@ body {
 }
 
 @keyframes dotsRotate {
+  50% {
+    transform: rotate(0.5turn);
+  }
+  100% {
+    transform: rotate(0.5turn);
+  }
+}
+/* @keyframes dotsRotate {
   from {
     transform: rotateZ(0);
   }
   to {
     transform: rotateZ(180deg);
   }
-}
+} */
 
 .dots-box__dots {
   width: 10vw;
